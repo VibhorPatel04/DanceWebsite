@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Sansita Swashed', cursive;
+    
+}
+#logo{
+    display: flex;
+    color:rgb(158 163 167);
+    align-items: center;
+    margin: 0px 12px;
+    font-size: 23px;
+}
+#logo img{
+    height: 43px;
+    width: 70px;
+    filter: invert(1);
+    
+
+}
+#navbar{
+    background-color: #222d02;
+    padding: 18px 14px;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar li {
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+#introSection{
+    padding-bottom: 26px;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    background: center / cover no-repeat url("/static/img1.jpg");
+    height: 430px;
+    background-color: aqua;
+}
+#introSection div.small{
+font-size:40px;
+padding: 5px;
+}
+#missionSection{
+    background-color: #747b5f;
+    height: 300px;
+
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    background-color: #222d02;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 25%;
+    margin: 23px 70px;
+    height: 236px;
+    display: inline-block;
+}
+.card h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+display: flex;
+align-items: center;
+}
+.card-img{
+    height: 131px;
+    padding: auto;
+    margin: 5px 9px;
+}
+.card-img img{
+    justify-content: center;
+    height: inherit; 
+}
+.card-content{
+    background-color: aqua;
+}
+
+#missionSection h2{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sponsorSection{
+     height: 300px;
+    background-color: #64665e;
+}
+#sponsorSection h2{
+    padding-top: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#sponsors{
+    display: block;
+    height: 10px;
+    max-width: 10000px;
+    
+    
+}
+.spImage{
+    height:80%;
+    margin: 0px;
+    margin-left: 155px;
+    padding: 22px;
+    
+
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+    height: 60px;
+    background-color: black;
+    font-size: 23px;
+}
